@@ -1,0 +1,35 @@
+.News-items{
+    width: 18rem;
+    box-shadow: 1px 1px 10px 2px rgb(235, 234, 234);
+    margin: 15px 20px;
+    
+}
+
+.News-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* overflow: scroll; */
+    /* width:100vw; */
+    margin: auto;
+    padding: 0;
+    text-align: center;
+
+    /* background-color: rgb(233, 227, 227); */
+    /* border:1px solid black; */
+}
+
+
+@media (max-width:1200px) {
+    .News-items{
+        margin: 10px;        
+    }
+
+}
+@media (max-width:766px) {
+    .News-items{
+        width: auto;
+        
+    }
+
+}
